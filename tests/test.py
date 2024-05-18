@@ -14,4 +14,4 @@ def test_download_file():
     file_data = ipfs.download_file('QmUjE3kn917vN12GJgG4FhMfuvWXhfJvynq8nGBcFs8bmH')
     print("File Data : " ,file_data)
     # Replace with meaningful assertion based on expected content
-    assert file_data == b'expected file content'
+    assert file_data == 'Is IPFS Working ??'
